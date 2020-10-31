@@ -1,0 +1,153 @@
+/*
+Theme Name: Dreamify Tims Template
+Author: Tim Silén
+*/
+body{
+   background-image: url("images/polygonlandscape.jpg");
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   margin-top: 70px;
+}
+
+.maintext{
+    opacity: 0.6;
+    color: white;
+    font-size: 40px;
+    
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: auto;
+    height: 500px;
+    
+}
+.subtext{
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.buttonclass{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    
+}
+.stylelink{
+    
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.align-button{
+    display: flex;
+    justify-content: center;
+}
+.headerparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.header-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+}
+.thetitle{
+    color: white;
+    font-size: 50px;
+    opacity: 0.6;
+    
+}
+@media screen and (max-width:700px){
+   .thetitle{
+       font-size: 50px;
+   }
+   .header-align{
+       font-size: 20px;
+   }
+   body{
+       margin-top: 50px;
+   }
+   .maintext{
+       margin-left: 10px;
+       font-size: 50px;
+       width: 300px;
+       text-align: center;
+   }
+   .subtext{
+       font-size: 20px;
+       width: 300px;
+   }
+   .content_styling{
+       margin-left: 30px;
+   }
+   .image{
+       margin-left: 10px;
+   }
+
+}
+.image{
+    width: 200px;
+    height: 100px;
+   
+    
+}
+.align-image{
+    display: flex;
+    justify-content: center;
+    
+}
+@media screen and (min-width:700px){
+    .header-align{
+        width: 700px;
+        font-size: 20px;
+    }
+    .image{
+        width: 400px;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+}
+@media screen and (max-height: 660px){
+   body{
+       margin-top: 0;
+   }
+   .thetitle{
+       font-size: 40px;
+       margin-left: 20px;
+   }
+   .content_styling{
+       font-size: 15px;
+       margin-right: 10px;
+   }
+   .image{
+       width: 100px;
+       height: 50px;
+   }
+
+}
+@media screen and (max-height: 500px){
+
+}
+
