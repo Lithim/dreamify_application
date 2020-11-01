@@ -11,12 +11,12 @@ get_header();?>
 <?php if(have_rows('image_text')):
 while ( have_rows('image_text')) : the_row();
 
-$section_image = get_sub_field('section_image');
 $section_button_link = get_sub_field('section_button_link');
+$section_image = get_sub_field('section_image');
 
 
-echo "<img src='" . $section_image['url'] . "' class='image'>";
 echo "<a href='" . $section_button_link['url']."' target='". $section_button_link['target'] . "' class='buttonclass2'>". $section_button_link['title']."</a>";
+echo "<img src='" . $section_image['url'] . "' class='image'>";
 
 
 
